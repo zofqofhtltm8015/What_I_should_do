@@ -1,0 +1,294 @@
+
+html
+{
+    background-color: #EEEEEE;
+    font-family: 'BBTreeGB','BBTreeGB',BBTreeGB;
+
+}
+@font-face { font-family: 'S-CoreDream-1Thin'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'BBTreeGB'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGB.woff') format('woff'); font-weight: normal; font-style: normal; }
+.Description
+{
+    top: 249px;
+    left: 880px;
+    position: absolute;
+    font-size: 20px;
+    color: black;
+}
+.User
+{
+    top: 649px;
+    left: 910px;
+    position: absolute;
+    
+
+    width: 50px;
+    height: 50px;
+}
+.index_text
+{
+    top: 148px;
+    left: 4px;
+    position: absolute;
+    background-color: rgba(255, 255,255,0);
+    border-style: none;
+     font-size: 66px;
+     font-family: 'BBTreeGB','BBTreeGB',BBTreeGB;
+}
+.clock
+{
+    top: 328px;
+    left: 64px;
+    position: absolute;
+}
+.background
+{
+    top: 72px;
+    left: 830px;
+    position: absolute;
+    border-style: none;
+    pointer-events: none;
+
+
+}
+
+.up{
+    top: 140px;
+    left: 960px;
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    color: #ababab;
+    border-width: 2px;
+    border-right-width: 0px ;
+    border-left-width: 0px;
+    border-bottom-color: #ababab
+}
+#WELCOME
+{
+    top: 140px;
+    left: 1020px;
+    position: absolute;
+    height: 50px;
+    width: 250px;    
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'BBTreeGB','BBTreeGB',BBTreeGB;
+   
+}
+.typing-txt{display: none;}
+.typeing-txt ul{list-style:none;}
+.typing {  
+  display: inline-block; 
+  animation-name: cursor; 
+  animation-duration: 0.3s; 
+  animation-iteration-count: infinite; 
+} 
+.UserID{
+    top: 660px;
+    left: 980px;
+    position: absolute;
+    font-size: 35px;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-color: black;
+    background-color: rgba(255, 255,255,0);
+    color: black;
+    font-family: 'BBTreeGB','BBTreeGB',BBTreeGB;
+
+}
+input::placeholder
+{
+    color: #444444;
+    font-family: 'BBTreeGB','BBTreeGB',BBTreeGB;
+}
+.UserPassword
+{
+
+        top: 760px;
+        left: 980px;
+        position: absolute;
+        font-size: 35px;
+        border-width: 0px;
+        border-bottom-width: 1px;
+        border-color: black;
+        background-color: rgba(255, 255,255,0);
+        color: black;
+        font-family: 'BBTreeGB','BBTreeGB',BBTreeGB;
+    
+}
+#testImage
+{
+    animation-name: testimage;
+    animation-duration: 1s;
+    width: 0px;
+    height: 0px;
+    
+}
+@keyframes testimage {
+    2.5%    {content: url('../png/LoginButtonAnimation/1.png');}
+    5%       {content: url('../png/LoginButtonAnimation/2.png');}
+    7.5% {content: url('../png/LoginButtonAnimation/3.png');}
+    10% {content: url('../png/LoginButtonAnimation/4.png');}
+    12.5% {content: url('../png/LoginButtonAnimation/5.png');}
+    15% {content: url('../png/LoginButtonAnimation/6.png');}
+    17.5% {content: url('../png/LoginButtonAnimation/7.png');}
+    20% {content: url('../png/LoginButtonAnimation/8.png');}
+    22.5% {content: url('../png/LoginButtonAnimation/9.png');}
+    25% {content: url('../png/LoginButtonAnimation/10.png');}
+    27.5% {content: url('../png/LoginButtonAnimation/11.png');}
+    30% {content: url('../png/LoginButtonAnimation/12.png');}
+    32.5% {content: url('../png/LoginButtonAnimation/13.png');}
+    35% {content: url('../png/LoginButtonAnimation/14.png');}
+    37.5% {content: url('../png/LoginButtonAnimation/15.png');}
+    40% {content: url('../png/LoginButtonAnimation/16.png');}
+    42.5% {content: url('../png/LoginButtonAnimation/17.png');}
+    45% {content: url('../png/LoginButtonAnimation/18.png');}
+    47.5% {content: url('../png/LoginButtonAnimation/19.png');}
+    50% {content: url('../png/LoginButtonAnimation/20.png');}
+    52.5% {content: url('../png/LoginButtonAnimation/21.png');}
+    55% {content: url('../png/LoginButtonAnimation/22.png');}
+    57.5% {content: url('../png/LoginButtonAnimation/23.png');}
+    60% {content: url('../png/LoginButtonAnimation/24.png');}
+    62.5% {content: url('../png/LoginButtonAnimation/25.png');}
+    65% {content: url('../png/LoginButtonAnimation/26.png');}
+    67.5% {content: url('../png/LoginButtonAnimation/27.png');}
+    70% {content: url('../png/LoginButtonAnimation/28.png');}
+    72.5% {content: url('../png/LoginButtonAnimation/29.png');}
+    75% {content: url('../png/LoginButtonAnimation/30.png');}
+    77.5% {content: url('../png/LoginButtonAnimation/31.png');}
+    80% {content: url('../png/LoginButtonAnimation/32.png');}
+    82.5% {content: url('../png/LoginButtonAnimation/33.png');}
+    85% {content: url('../png/LoginButtonAnimation/34.png');}
+    87.5% {content: url('../png/LoginButtonAnimation/35.png');}
+    90% {content: url('../png/LoginButtonAnimation/36.png');}
+    92.5% {content: url('../png/LoginButtonAnimation/37.png');}
+    95% {content: url('../png/LoginButtonAnimation/38.png');}
+    97.5% {content: url('../png/LoginButtonAnimation/39.png');}
+    100% {content: url('../png/LoginButtonAnimation/40.png');}
+}
+
+#userpasswordPNG
+{
+  
+    top: 750px;
+    left: 910px;
+    position: absolute;
+}
+
+#Login
+{
+    top: 830px;
+    left: 1060px;
+    position: absolute;
+    content: url('../png/LoginButtonAnimation/first.png');
+    transition: all ease 1s;
+    
+
+}
+#Login:hover
+{
+    cursor: pointer;
+    animation-name: LoginAnimation;
+    animation-duration: 1s;
+    animation-fill-mode:both;
+
+}
+@keyframes LoginAnimation
+{
+    2.5%    {content: url('../png/LoginButtonAnimation/1.png');}
+    5%       {content: url('../png/LoginButtonAnimation/2.png');}
+    7.5% {content: url('../png/LoginButtonAnimation/3.png');}
+    10% {content: url('../png/LoginButtonAnimation/4.png');}
+    12.5% {content: url('../png/LoginButtonAnimation/5.png');}
+    15% {content: url('../png/LoginButtonAnimation/6.png');}
+    17.5% {content: url('../png/LoginButtonAnimation/7.png');}
+    20% {content: url('../png/LoginButtonAnimation/8.png');}
+    22.5% {content: url('../png/LoginButtonAnimation/9.png');}
+    25% {content: url('../png/LoginButtonAnimation/10.png');}
+    27.5% {content: url('../png/LoginButtonAnimation/11.png');}
+    30% {content: url('../png/LoginButtonAnimation/12.png');}
+    32.5% {content: url('../png/LoginButtonAnimation/13.png');}
+    35% {content: url('../png/LoginButtonAnimation/14.png');}
+    37.5% {content: url('../png/LoginButtonAnimation/15.png');}
+    40% {content: url('../png/LoginButtonAnimation/16.png');}
+    42.5% {content: url('../png/LoginButtonAnimation/17.png');}
+    45% {content: url('../png/LoginButtonAnimation/18.png');}
+    47.5% {content: url('../png/LoginButtonAnimation/19.png');}
+    50% {content: url('../png/LoginButtonAnimation/20.png');}
+    52.5% {content: url('../png/LoginButtonAnimation/21.png');}
+    55% {content: url('../png/LoginButtonAnimation/22.png');}
+    57.5% {content: url('../png/LoginButtonAnimation/23.png');}
+    60% {content: url('../png/LoginButtonAnimation/24.png');}
+    62.5% {content: url('../png/LoginButtonAnimation/25.png');}
+    65% {content: url('../png/LoginButtonAnimation/26.png');}
+    67.5% {content: url('../png/LoginButtonAnimation/27.png');}
+    70% {content: url('../png/LoginButtonAnimation/28.png');}
+    72.5% {content: url('../png/LoginButtonAnimation/29.png');}
+    75% {content: url('../png/LoginButtonAnimation/30.png');}
+    77.5% {content: url('../png/LoginButtonAnimation/31.png');}
+    80% {content: url('../png/LoginButtonAnimation/32.png');}
+    82.5% {content: url('../png/LoginButtonAnimation/33.png');}
+    85% {content: url('../png/LoginButtonAnimation/34.png');}
+    87.5% {content: url('../png/LoginButtonAnimation/35.png');}
+    90% {content: url('../png/LoginButtonAnimation/36.png');}
+    92.5% {content: url('../png/LoginButtonAnimation/37.png');}
+    95% {content: url('../png/LoginButtonAnimation/38.png');}
+    97.5% {content: url('../png/LoginButtonAnimation/39.png');}
+    100% {content: url('../png/LoginButtonAnimation/40.png');}
+}
+#HOXY
+{
+    top: 780px;
+    left: 100px;
+    position: absolute;
+    text-align: center;
+}
+#register
+{
+    top: 780px;
+    left: 100px;
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    border-radius: 120px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 60px;
+    font-family: 'BBTreeGB','BBTreeGB',BBTreeGB;
+    font-weight: 600;
+padding-top: 40px;
+transition: 5s;
+
+
+background: 
+
+    linear-gradient(to right,#fc6076  0% ,#ff9a44 100% ) padding-box, /*this is your grey background*/
+linear-gradient(to right, #9c20aa, #fb3570) border-box;
+border: 2px solid transparent;
+
+
+}
+
+#register:hover regi
+{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);      
+      -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#register:hover
+{
+    cursor: pointer;
+background:
+linear-gradient(to right,#ff9a44  0% ,#fc6076 100% ) padding-box, /*this is your grey background*/
+linear-gradient(to right, #fb3570, #9c20aa) border-box;
+    border: 2px solid transparent;   
+transition: 3s;
+
+
+
+   
+}
+
+

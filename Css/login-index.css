@@ -1,0 +1,52 @@
+.typing-txt
+{
+    display: none;
+}
+@font-face { font-family: 'BBTreeGB'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGB.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+html
+{
+    background-color: #EEEEEE;
+
+    font-family: 'BBTreeGB','BBTreeGB',BBTreeGB;
+}
+
+.typing
+{
+    font-family: 'BBTreeGB','BBTreeGB',BBTreeGB;
+    font-size: 30px;
+    font-weight: 600;
+
+    top: 200px;
+    left: 200px;
+    position: absolute;
+}
+
+.blinking{
+	-webkit-animation:blink 1.5s ease-in-out infinite alternate;
+    -moz-animation:blink 1.5s ease-in-out infinite alternate;
+    animation:blink 1.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;
+    }
+    100% {opacity:1;}
+}
+
+.logo
+{
+  
+
+}
+.logo:hover
+{
+    cursor: pointer;
+}
